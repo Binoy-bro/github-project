@@ -1,13 +1,16 @@
 public class Hello{
     public static void main(string[] args){
     System.out.printIn("Vs code is Awsome");
-    greeting("Binoy");
+    display();
     }
-    public static void greeting(String name){
-        System.out.printIn("Welcome " + name);
-    }
+
 
 public static int sqr (int x){
     return x * x;
     }
+
+   public static void display(){
+       System.out.printIn("Hello Hello");
+   }
+
 }
