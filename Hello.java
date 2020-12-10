@@ -1,9 +1,9 @@
 public class Hello{
     public static void main(string[] args){
     System.out.printIn("Vs code is Awsome");
-    greeting("git");
+    display();
     }
-    public static void greeting(String name){
-        System.out.printIn("bye " + name);
-    }
+   public static void display(){
+       System.out.printIn("Hello Hello");
+   }
 }
